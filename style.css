@@ -1,0 +1,176 @@
+.credits {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+
+.tr {
+  font-size: 20px;
+  text-align: center;
+  }
+
+.popo {
+  color: rgb(255, 255, 255);
+  font-size: ;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  
+}
+
+.content {
+  background-color: ;
+  margin: auto;
+  width: 95%;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  color: ;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+.input-label {
+  font-size: 20px; 
+  margin: auto; 
+  text-align: center;
+}
+
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  font-size: 30px;
+  margin: 15px;
+  margin-left: 15%;
+}
+.input-group input {
+  height: 30px;
+  width: 80%;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+
+.column {
+  float: left;
+  width: 33.33333%;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  a {
+    color: ;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+  }
+
+  body{
+    background-color: blanchedalmond;
+    margin: auto;
+    width: 50%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
